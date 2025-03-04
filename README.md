@@ -11,8 +11,7 @@ The Vehicle Builder is a TypeScript-based CLI application that showcases object-
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Class Structure](#class-structure)
-- [Video Walkthrough](#video-walkthrough)
+- [Demo](#video-walkthrough)
 - [Technology Used](#technology-used)
 - [License](#license)
 
@@ -52,34 +51,10 @@ The application will prompt you to:
   - Motorbikes can perform wheelies
 - **Interactive CLI**: User-friendly command-line interface with easy navigation
 
-## Class Structure
 
-The application uses the following class hierarchy:
+## Demo
 
-- **Vehicle** (base class)
-  - Implements the Driveable interface
-  - Contains basic vehicle functionality (starting, accelerating, etc.)
-  
-- **Car** (extends Vehicle)
-  - Contains car-specific properties and methods
-  
-- **Truck** (extends Vehicle, implements AbleToTow)
-  - Contains truck-specific properties
-  - Can tow other vehicles
-  
-- **Motorbike** (extends Vehicle)
-  - Contains motorbike-specific properties
-  - Can perform wheelies
-  
-- **Wheel**
-  - Standalone class for wheel properties
-  
-- **Cli**
-  - Handles user interaction and command processing
-
-## Video Walkthrough
-
-[Link to walkthrough video](https://app.screencastify.com/v3/watch/MnplvoMJ1MD8tCwafbGq)
+[Link to Demo](https://app.screencastify.com/v3/watch/MnplvoMJ1MD8tCwafbGq)
 
 ## Technology Used
 
